@@ -1,0 +1,177 @@
+.addremove .minus {
+    float:left;
+    padding:10px;
+    color:#fff;
+    font-family: DINProMedium;
+    background: #d8d8d8;
+    border-radius: 3px;
+    font-size: 18px;
+    line-height: 0;
+}
+.addremove .plus {
+    float:right;
+    padding:10px;
+    color:#fff;
+    font-family: DINProMedium;
+    background: #f15a38;
+    border-radius: 3px;
+    font-size: 18px;
+    line-height: 0;
+}
+.smallminus i {
+    color:#8C9192;
+}
+.smallplus i {
+    color: #f15a38;
+}
+.smallplus, .smallminus {
+    box-shadow:none;
+    background: transparent !important;
+    border: 0px !important;
+}
+.addremove span {
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    border:1px solid rgba(0,0,0,0.3);
+}
+/*.mymeels li.product .min_prod_left {
+    display:inline-block;
+    float:left;
+}*/
+/*.mymeels li.product .min_prod_right{
+    display: inline-block;
+    float:right;
+}*/
+.mymeels li.product {
+    list-style: none;
+}
+.mymeels li.product .min_prod_left button, .mymeels li.product .min_prod_left span {
+    clear:both !important;
+    display:block;
+}
+.mymeels li.product .min_prod_left {
+    margin-right: 10px;
+    text-align: right;
+}
+.mymeels li.product .min_prod_left .plus {
+    background: transparent;
+    color:#f15a38;
+    font-size: 28px;
+    border:0px;
+    padding: 0px !important;
+    font-weight: bold;
+    line-height: 0;
+}
+.mymeels li.product .min_prod_left .minus {
+    background: transparent;
+    color:#8C9192;
+    font-size: 28px;
+    border:0px;
+    padding: 0px !important;
+    font-weight: bold;
+    line-height: 0;
+    width: 75%;
+}
+.mymeels li.product .min_prod_left span {
+
+}
+.archive li.product{
+    display: inline-block !important;
+    vertical-align: top !important;
+    clear: none !important;
+    margin: 0 1%!important;
+    float: none!important;
+}
+.min_prod_right {
+    max-width: 140px;
+    margin-left:10px;
+}
+.full_remove {
+    display:inline-block;
+    float:right;
+    margin:0px;
+    clear:none;
+    font-weight: bold;
+    color:#8C9192;
+    font-size: 20px;
+    cursor: pointer;
+}
+.mymeels li.product {
+    width: 100%;
+    margin-left:0px !important;
+    margin-right:0px !important;
+}
+.mymeels li.product .min_prod_left i {
+    font-size:12px !important;
+}
+.mymeels li.product .min_prod_left span {
+    font-weight: bold;
+    color:black;
+}
+.mymeels li.product .min_prod_right h5 {
+    font-family: DINProMedium;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.your_meels_count {
+    float:right;
+}
+.left_your_meels {
+    float:left;
+}
+#meels_count {
+    line-height:3;
+}
+.archive.tax-product_cat.term-test-cat.term-6.admin-bar.wp-custom-logo.woocommerce.woocommerce-page.group-blog.hfeed.columns-3.customize-support .col-main.col-sm-9 {
+    background: #f0f0f0;
+}
+.archive.tax-product_cat.term-test-cat.term-6.admin-bar.wp-custom-logo.woocommerce.woocommerce-page.group-blog.hfeed.columns-3.customize-support  .page_header_wrap {
+height: 0px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.mymeels li.product .min_prod_left td{
+    vertical-align: middle;
+    border: 0;
+}
+.mymeels li.product .min_prod_left td img{
+    width: 55px!important;
+    max-width: 55px!important;
+}
+.mymeels li.product .min_prod_left td h5{
+    font-size: 16px;
+    font-family: 'DINProRegular';
+}
+.mymeels li.product .min_prod_left td:first-child{
+    text-align: right;
+    width: 25px;
+}
+.mymeels li.product .min_prod_left td{
+    padding-left: 5px;
+}
+.mymeels li.product .min_prod_left td:nth-child(2){
+    width: 60px;
+}
+.archive.post-type-archive #secondary{
+    padding-right: 0!important;
+}
+.min_prod_left span {
+    text-align:center;
+}
+.choose_x_meals {
+    text-align: center;
+    color:#f15a38;
+    font-weight: 600;
+    font-size: 17px;
+}
+.next{
+    position: fixed;
+    right: 15px;
+    height: 80px;
+    width: 25%;
+    bottom: 0;
+    padding-right: 70px;
+    z-index: 10;
+}

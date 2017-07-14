@@ -1,0 +1,86 @@
+05-04-2017 @ 16:52:59 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => orders_api1.dvour.ca
+    [PWD] => 6LNJSHLW4H9XBVX8
+    [SIGNATURE] => An5ns1Kso7MWUdW4ErQKJJJ4qi4-A4E6gF3kDbO9346EwIMeePC9RWUR
+)
+
+05-04-2017 @ 16:53:00 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [PAL] => FTGS4Y3ZL4AYW
+    [LOCALE] => en_US
+    [TIMESTAMP] => 2017-05-04T16:53:00Z
+    [CORRELATIONID] => 99ea80ee48f8
+    [ACK] => Success
+    [VERSION] => 120.0
+    [BUILD] => 25237094
+)
+
+05-04-2017 @ 16:53:00 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.paypal.com/nvp with params: Array
+(
+    [RETURNURL] => http://dvour.ca/
+    [CANCELURL] => http://dvour.ca/
+    [REQBILLINGADDRESS] => 1
+    [AMT] => 1.00
+    [METHOD] => SetExpressCheckout
+    [VERSION] => 120.0
+    [USER] => orders_api1.dvour.ca
+    [PWD] => 6LNJSHLW4H9XBVX8
+    [SIGNATURE] => An5ns1Kso7MWUdW4ErQKJJJ4qi4-A4E6gF3kDbO9346EwIMeePC9RWUR
+)
+
+05-04-2017 @ 16:53:05 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2017-05-04T16:53:05Z
+    [CORRELATIONID] => f21461c4828d0
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 33074943
+    [L_ERRORCODE0] => 11601
+    [L_SHORTMESSAGE0] => Request for billing address failed
+    [L_LONGMESSAGE0] => Billing address request is not enabled for merchant
+    [L_SEVERITYCODE0] => Error
+)
+
+05-04-2017 @ 18:04:28 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => orders_api1.dvour.ca
+    [PWD] => 6LNJSHLW4H9XBVX8
+    [SIGNATURE] => An5ns1Kso7MWUdW4ErQKJJJ4qi4-A4E6gF3kDbO9346EwIMeePC9RWUR
+)
+
+05-04-2017 @ 18:04:29 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [PAL] => FTGS4Y3ZL4AYW
+    [LOCALE] => en_US
+    [TIMESTAMP] => 2017-05-04T18:04:29Z
+    [CORRELATIONID] => b883f51f50655
+    [ACK] => Success
+    [VERSION] => 120.0
+    [BUILD] => 25237094
+)
+
+05-10-2017 @ 05:34:09 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => orders_api1.dvour.ca
+    [PWD] => 6LNJSHLW4H9XBVX8
+    [SIGNATURE] => An5ns1Kso7MWUdW4ErQKJJJ4qi4-A4E6gF3kDbO9346EwIMeePC9RWUR
+)
+
+05-10-2017 @ 05:34:10 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [PAL] => FTGS4Y3ZL4AYW
+    [LOCALE] => en_US
+    [TIMESTAMP] => 2017-05-10T11:34:10Z
+    [CORRELATIONID] => 9c75b6f2bd56d
+    [ACK] => Success
+    [VERSION] => 120.0
+    [BUILD] => 25237094
+)
+

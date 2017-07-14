@@ -1,0 +1,120 @@
+@media screen and (min-width: 768px){
+	.archive .row {
+		position:fixed;
+		width:90%;
+	}
+	.archive .row .col-main.col-sm-9 {
+		height:calc(100vh - 150px);
+		overflow-y: auto;
+	}
+	.archive .row #secondary .mymeels{
+		height: 600px;
+    display: inline-block!important;
+    overflow-y: auto;
+    max-height: 600px !important;
+	}
+	.archive .row #secondary .mymeels::-webkit-scrollbar { 
+    display: none; 
+}
+}
+
+.breadcrumps{
+    border-bottom: thin solid rgba(0,0,0,0.1);
+    padding-bottom: 10px !important;
+    display: inline-block;
+    padding: 0 20px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: #969696;
+    font-family: 'DINProRegular';
+}
+.breadcrumps span {
+    color: #d15137;
+
+}
+.cart_close{
+    float: right;
+    padding: 10px 5px 20px 0;
+    color: #f15a38;
+    font-weight: 600;
+    cursor: pointer;
+    display: none;
+}
+.show_prod{
+    display: none;
+}
+.mymeels{
+   width: 100%;
+    float: left;
+    margin-top: 15px;
+
+}
+
+@media screen and (max-width: 768px){
+    .archive .row .col-main{
+        margin-top:125px;
+    }
+    .archive #secondary {
+        display: block;
+        position: absolute;
+        top: 125px;
+        background: #fff;
+        width: 85%;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    .archive #secondary .mymeels li.product{
+        width:100% !important;
+    }
+    .mymeels{
+    display: none;
+     transition: display 2s;
+     height:300px;
+     overflow-y:auto;
+     overflow-x:hidden;
+     z-index: 999999999999999; 
+
+    }
+    .cart_close{
+        display: block;
+        width: 100%;
+        text-align: right;
+        position: absolute;
+        left: 0;
+        background: white;
+        padding: 9px 20px 5px 20px;
+    }
+    #meels_count{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .left_your_meels,.your_meels_count{
+        float: none!important;
+        display: inline-block;
+        margin: 0 5px;
+    }
+    .show_prod {
+        display: table;
+        width:120px;
+        line-height: 0;
+        padding: 11px 15px;
+        color:rgb(241, 90, 56);
+        background: rgb(254, 239, 234);
+        margin-right: auto;
+        margin-left: auto;
+        font-weight: 600;
+
+    }
+    .sunday,.wednesday{
+        width: 100%;
+        float: left;
+        margin-top: 30px;
+    }
+    .mymeels{
+        padding: 0 10px;
+    }
+}

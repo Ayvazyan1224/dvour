@@ -1,0 +1,1683 @@
+07-12-2017 @ 06:41:50 - Info: Begin processing payment for order 723 for the amount of 98.24
+07-12-2017 @ 06:41:50 - charges request: Array
+(
+    [currency] => cad
+    [amount] => 9824
+    [description] => d`VOUR - Order 723
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [Customer Name] => test test
+            [Customer Email] => ayvazyan122400@gmail.com
+        )
+
+    [source] => tok_1AeiHuLejKoSDX7ubdlSiEKx
+)
+
+07-12-2017 @ 06:41:53 - Processing response: stdClass Object
+(
+    [id] => ch_1AeiI2LejKoSDX7uRLrmWwFz
+    [object] => charge
+    [amount] => 9824
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1AeiI2LejKoSDX7uJGvGEtl5
+            [object] => balance_transaction
+            [amount] => 7457
+            [available_on] => 1500422400
+            [created] => 1499856114
+            [currency] => usd
+            [description] => d`VOUR - Order 723
+            [fee] => 246
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 246
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 7211
+            [source] => ch_1AeiI2LejKoSDX7uRLrmWwFz
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_1AeiI2LejKoSDX7uRLrmWwFz
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1499856114
+    [currency] => cad
+    [customer] => 
+    [description] => d`VOUR - Order 723
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [Customer Name] => test test
+            [Customer Email] => ayvazyan122400@gmail.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1AeiI2LejKoSDX7uRLrmWwFz/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_1AeiHuLejKoSDX7u6SOgA3W6
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 11
+            [exp_year] => 2021
+            [fingerprint] => BWDboBpJkTlTJxZV
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => ayvazyan122400@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+
+07-12-2017 @ 06:41:57 - Success: Stripe charge complete (Charge ID: ch_1AeiI2LejKoSDX7uRLrmWwFz)
+07-12-2017 @ 07:15:30 - Info: Begin processing payment for order 724 for the amount of 74.51
+07-12-2017 @ 07:15:30 - charges request: Array
+(
+    [currency] => cad
+    [amount] => 7451
+    [description] => d`VOUR - Order 724
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [Customer Name] => test test
+            [Customer Email] => ayvazyan122400@gmail.com
+        )
+
+    [source] => tok_1AeioTLejKoSDX7uroWCYVuO
+)
+
+07-12-2017 @ 07:15:31 - Processing response: stdClass Object
+(
+    [id] => ch_1AeiobLejKoSDX7uh8lHRRYK
+    [object] => charge
+    [amount] => 7451
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1AeiobLejKoSDX7uQproBj9g
+            [object] => balance_transaction
+            [amount] => 5656
+            [available_on] => 1500422400
+            [created] => 1499858133
+            [currency] => usd
+            [description] => d`VOUR - Order 724
+            [fee] => 194
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 194
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 5462
+            [source] => ch_1AeiobLejKoSDX7uh8lHRRYK
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_1AeiobLejKoSDX7uh8lHRRYK
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1499858133
+    [currency] => cad
+    [customer] => 
+    [description] => d`VOUR - Order 724
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [Customer Name] => test test
+            [Customer Email] => ayvazyan122400@gmail.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1AeiobLejKoSDX7uh8lHRRYK/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_1AeioTLejKoSDX7uW8XjKlva
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 12
+            [exp_year] => 2021
+            [fingerprint] => BWDboBpJkTlTJxZV
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => ayvazyan122400@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+
+07-12-2017 @ 07:15:37 - Success: Stripe charge complete (Charge ID: ch_1AeiobLejKoSDX7uh8lHRRYK)
+07-13-2017 @ 04:40:04 - Info: Begin processing payment for order 727 for the amount of 74.51
+07-13-2017 @ 04:40:04 - charges request: Array
+(
+    [currency] => cad
+    [amount] => 7451
+    [description] => d`VOUR - Order 727
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [Customer Name] => test test
+            [Customer Email] => ayvazyan122400@gmail.com
+        )
+
+    [source] => tok_1Af2reLejKoSDX7umxJ7f9AH
+)
+
+07-13-2017 @ 04:40:07 - Processing response: stdClass Object
+(
+    [id] => ch_1Af2rlLejKoSDX7uTQx0jyUT
+    [object] => charge
+    [amount] => 7451
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1Af2rlLejKoSDX7uNrGAv3VA
+            [object] => balance_transaction
+            [amount] => 5731
+            [available_on] => 1500508800
+            [created] => 1499935209
+            [currency] => usd
+            [description] => d`VOUR - Order 727
+            [fee] => 196
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 196
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 5535
+            [source] => ch_1Af2rlLejKoSDX7uTQx0jyUT
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_1Af2rlLejKoSDX7uTQx0jyUT
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1499935209
+    [currency] => cad
+    [customer] => 
+    [description] => d`VOUR - Order 727
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [Customer Name] => test test
+            [Customer Email] => ayvazyan122400@gmail.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1Af2rlLejKoSDX7uTQx0jyUT/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_1Af2rdLejKoSDX7ubvCsERZN
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => 
+            [cvc_check] => 
+            [dynamic_last4] => 
+            [exp_month] => 12
+            [exp_year] => 2021
+            [fingerprint] => BWDboBpJkTlTJxZV
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => ayvazyan122400@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+
+07-13-2017 @ 04:40:15 - Success: Stripe charge complete (Charge ID: ch_1Af2rlLejKoSDX7uTQx0jyUT)
+07-13-2017 @ 04:42:18 - Info: Begin processing payment for order 729 for the amount of 142.24
+07-13-2017 @ 04:42:18 - charges request: Array
+(
+    [currency] => cad
+    [amount] => 14224
+    [description] => d`VOUR - Order 729
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [Customer Name] => test test
+            [Customer Email] => ayvazyan122400@gmail.com
+        )
+
+    [source] => tok_1Af2toLejKoSDX7uzJwCBXqp
+)
+
+07-13-2017 @ 04:42:21 - Processing response: stdClass Object
+(
+    [id] => ch_1Af2ttLejKoSDX7uDCNN94lc
+    [object] => charge
+    [amount] => 14224
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1Af2tuLejKoSDX7uCTAHJQm6
+            [object] => balance_transaction
+            [amount] => 10940
+            [available_on] => 1500508800
+            [created] => 1499935341
+            [currency] => usd
+            [description] => d`VOUR - Order 729
+            [fee] => 347
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 347
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 10593
+            [source] => ch_1Af2ttLejKoSDX7uDCNN94lc
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_1Af2ttLejKoSDX7uDCNN94lc
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1499935341
+    [currency] => cad
+    [customer] => 
+    [description] => d`VOUR - Order 729
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [Customer Name] => test test
+            [Customer Email] => ayvazyan122400@gmail.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1Af2ttLejKoSDX7uDCNN94lc/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_1Af2toLejKoSDX7ucJxgtsGZ
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => 
+            [cvc_check] => 
+            [dynamic_last4] => 
+            [exp_month] => 12
+            [exp_year] => 2021
+            [fingerprint] => BWDboBpJkTlTJxZV
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => ayvazyan122400@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+
+07-13-2017 @ 04:42:25 - Success: Stripe charge complete (Charge ID: ch_1Af2ttLejKoSDX7uDCNN94lc)
+07-13-2017 @ 06:36:54 - Info: Begin processing payment for order 733 for the amount of 74.51
+07-13-2017 @ 06:36:54 - charges request: Array
+(
+    [currency] => cad
+    [amount] => 7451
+    [description] => d`VOUR - Order 733
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [Customer Name] => test test
+            [Customer Email] => ayvazyan122400@gmail.com
+        )
+
+    [source] => tok_1Af4giLejKoSDX7ur9ANf0Yq
+)
+
+07-13-2017 @ 06:36:56 - Processing response: stdClass Object
+(
+    [id] => ch_1Af4gnLejKoSDX7ucU5ISgKm
+    [object] => charge
+    [amount] => 7451
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1Af4gnLejKoSDX7uqVsvU1dc
+            [object] => balance_transaction
+            [amount] => 5731
+            [available_on] => 1500508800
+            [created] => 1499942217
+            [currency] => usd
+            [description] => d`VOUR - Order 733
+            [fee] => 196
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 196
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 5535
+            [source] => ch_1Af4gnLejKoSDX7ucU5ISgKm
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_1Af4gnLejKoSDX7ucU5ISgKm
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1499942217
+    [currency] => cad
+    [customer] => 
+    [description] => d`VOUR - Order 733
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [Customer Name] => test test
+            [Customer Email] => ayvazyan122400@gmail.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1Af4gnLejKoSDX7ucU5ISgKm/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_1Af4giLejKoSDX7u3UDRkzio
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => 
+            [cvc_check] => 
+            [dynamic_last4] => 
+            [exp_month] => 12
+            [exp_year] => 2021
+            [fingerprint] => BWDboBpJkTlTJxZV
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => ayvazyan122400@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+
+07-13-2017 @ 06:36:59 - Success: Stripe charge complete (Charge ID: ch_1Af4gnLejKoSDX7ucU5ISgKm)
+07-13-2017 @ 06:38:01 - Info: Begin processing payment for order 735 for the amount of 38.7
+07-13-2017 @ 06:38:01 - charges request: Array
+(
+    [currency] => cad
+    [amount] => 3870
+    [description] => d`VOUR - Order 735
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [Customer Name] => test test
+            [Customer Email] => ayvazyan122400@gmail.com
+        )
+
+    [source] => tok_1Af4hnLejKoSDX7uUHwPwO6b
+)
+
+07-13-2017 @ 06:38:02 - Processing response: stdClass Object
+(
+    [id] => ch_1Af4hsLejKoSDX7uDBU00Vcb
+    [object] => charge
+    [amount] => 3870
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1Af4hsLejKoSDX7uFUA7vVzE
+            [object] => balance_transaction
+            [amount] => 2977
+            [available_on] => 1500508800
+            [created] => 1499942284
+            [currency] => usd
+            [description] => d`VOUR - Order 735
+            [fee] => 116
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 116
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 2861
+            [source] => ch_1Af4hsLejKoSDX7uDBU00Vcb
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_1Af4hsLejKoSDX7uDBU00Vcb
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1499942284
+    [currency] => cad
+    [customer] => 
+    [description] => d`VOUR - Order 735
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [Customer Name] => test test
+            [Customer Email] => ayvazyan122400@gmail.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1Af4hsLejKoSDX7uDBU00Vcb/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_1Af4hnLejKoSDX7uc32nGABV
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => 
+            [cvc_check] => 
+            [dynamic_last4] => 
+            [exp_month] => 12
+            [exp_year] => 2021
+            [fingerprint] => BWDboBpJkTlTJxZV
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => ayvazyan122400@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+
+07-13-2017 @ 06:38:07 - Success: Stripe charge complete (Charge ID: ch_1Af4hsLejKoSDX7uDBU00Vcb)
+07-13-2017 @ 07:20:52 - Info: Begin processing payment for order 740 for the amount of 74.51
+07-13-2017 @ 07:20:52 - charges request: Array
+(
+    [currency] => cad
+    [amount] => 7451
+    [description] => d`VOUR - Order 740
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [Customer Name] => test test
+            [Customer Email] => ayvazyan122400@gmail.com
+        )
+
+    [source] => tok_1Af5NFLejKoSDX7u1cyZV8CI
+)
+
+07-13-2017 @ 07:20:53 - Processing response: stdClass Object
+(
+    [id] => ch_1Af5NLLejKoSDX7uBVdPKjiE
+    [object] => charge
+    [amount] => 7451
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1Af5NLLejKoSDX7ugQjPoDhI
+            [object] => balance_transaction
+            [amount] => 5731
+            [available_on] => 1500508800
+            [created] => 1499944855
+            [currency] => usd
+            [description] => d`VOUR - Order 740
+            [fee] => 196
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 196
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 5535
+            [source] => ch_1Af5NLLejKoSDX7uBVdPKjiE
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_1Af5NLLejKoSDX7uBVdPKjiE
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1499944855
+    [currency] => cad
+    [customer] => 
+    [description] => d`VOUR - Order 740
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [Customer Name] => test test
+            [Customer Email] => ayvazyan122400@gmail.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1Af5NLLejKoSDX7uBVdPKjiE/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_1Af5NFLejKoSDX7uEXa1dkkB
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => 
+            [cvc_check] => 
+            [dynamic_last4] => 
+            [exp_month] => 12
+            [exp_year] => 2021
+            [fingerprint] => BWDboBpJkTlTJxZV
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => ayvazyan122400@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+
+07-13-2017 @ 07:20:57 - Success: Stripe charge complete (Charge ID: ch_1Af5NLLejKoSDX7uBVdPKjiE)
+07-13-2017 @ 09:57:16 - Info: Begin processing payment for order 743 for the amount of 142.24
+07-13-2017 @ 09:57:16 - charges request: Array
+(
+    [currency] => cad
+    [amount] => 14224
+    [description] => d`VOUR - Order 743
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [Customer Name] => test test
+            [Customer Email] => ayvazyan122400@gmail.com
+        )
+
+    [source] => tok_1Af7obLejKoSDX7uO5awM3ak
+)
+
+07-13-2017 @ 09:57:17 - Processing response: stdClass Object
+(
+    [id] => ch_1Af7ohLejKoSDX7uWyZY9pjZ
+    [object] => charge
+    [amount] => 14224
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1Af7ohLejKoSDX7uC3jeBVwW
+            [object] => balance_transaction
+            [amount] => 10926
+            [available_on] => 1500508800
+            [created] => 1499954239
+            [currency] => usd
+            [description] => d`VOUR - Order 743
+            [fee] => 347
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 347
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 10579
+            [source] => ch_1Af7ohLejKoSDX7uWyZY9pjZ
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_1Af7ohLejKoSDX7uWyZY9pjZ
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1499954239
+    [currency] => cad
+    [customer] => 
+    [description] => d`VOUR - Order 743
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [Customer Name] => test test
+            [Customer Email] => ayvazyan122400@gmail.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1Af7ohLejKoSDX7uWyZY9pjZ/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_1Af7oaLejKoSDX7uTW9UUMe1
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => 
+            [cvc_check] => 
+            [dynamic_last4] => 
+            [exp_month] => 12
+            [exp_year] => 2021
+            [fingerprint] => BWDboBpJkTlTJxZV
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => ayvazyan122400@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+
+07-13-2017 @ 09:57:25 - Success: Stripe charge complete (Charge ID: ch_1Af7ohLejKoSDX7uWyZY9pjZ)
+07-14-2017 @ 03:08:48 - Info: Begin processing payment for order 746 for the amount of 74.51
+07-14-2017 @ 03:08:48 - charges request: Array
+(
+    [currency] => cad
+    [amount] => 7451
+    [description] => d`VOUR - Order 746
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [Customer Name] => test test
+            [Customer Email] => ayvazyan122400@gmail.com
+        )
+
+    [source] => tok_1AfNusLejKoSDX7u8SqBlVuS
+)
+
+07-14-2017 @ 03:08:52 - Processing response: stdClass Object
+(
+    [id] => ch_1AfNuzLejKoSDX7uC2hUTPCF
+    [object] => charge
+    [amount] => 7451
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1AfNuzLejKoSDX7utb1ZkXh4
+            [object] => balance_transaction
+            [amount] => 5737
+            [available_on] => 1500595200
+            [created] => 1500016133
+            [currency] => usd
+            [description] => d`VOUR - Order 746
+            [fee] => 196
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 196
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 5541
+            [source] => ch_1AfNuzLejKoSDX7uC2hUTPCF
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_1AfNuzLejKoSDX7uC2hUTPCF
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1500016133
+    [currency] => cad
+    [customer] => 
+    [description] => d`VOUR - Order 746
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [Customer Name] => test test
+            [Customer Email] => ayvazyan122400@gmail.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1AfNuzLejKoSDX7uC2hUTPCF/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_1AfNusLejKoSDX7ucqJUPCsE
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => 
+            [cvc_check] => 
+            [dynamic_last4] => 
+            [exp_month] => 12
+            [exp_year] => 2021
+            [fingerprint] => BWDboBpJkTlTJxZV
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => ayvazyan122400@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+
+07-14-2017 @ 03:08:56 - Success: Stripe charge complete (Charge ID: ch_1AfNuzLejKoSDX7uC2hUTPCF)
+07-14-2017 @ 07:28:30 - Info: Begin processing payment for order 749 for the amount of 270.93
+07-14-2017 @ 07:28:30 - charges request: Array
+(
+    [currency] => cad
+    [amount] => 27093
+    [description] => d`VOUR - Order 749
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [Customer Name] => test test
+            [Customer Email] => ayvazyan122400@gmail.com
+        )
+
+    [source] => tok_1AfRyCLejKoSDX7uR2rQ3Hce
+)
+
+07-14-2017 @ 07:28:31 - Processing response: stdClass Object
+(
+    [id] => ch_1AfRyILejKoSDX7uQcWtbXRG
+    [object] => charge
+    [amount] => 27093
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1AfRyJLejKoSDX7udveW5chx
+            [object] => balance_transaction
+            [amount] => 20859
+            [available_on] => 1500595200
+            [created] => 1500031714
+            [currency] => usd
+            [description] => d`VOUR - Order 749
+            [fee] => 635
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 635
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 20224
+            [source] => ch_1AfRyILejKoSDX7uQcWtbXRG
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_1AfRyILejKoSDX7uQcWtbXRG
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1500031714
+    [currency] => cad
+    [customer] => 
+    [description] => d`VOUR - Order 749
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [Customer Name] => test test
+            [Customer Email] => ayvazyan122400@gmail.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1AfRyILejKoSDX7uQcWtbXRG/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_1AfRyCLejKoSDX7u6DBfydgP
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => 
+            [cvc_check] => 
+            [dynamic_last4] => 
+            [exp_month] => 12
+            [exp_year] => 2021
+            [fingerprint] => BWDboBpJkTlTJxZV
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => ayvazyan122400@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+
+07-14-2017 @ 07:28:35 - Success: Stripe charge complete (Charge ID: ch_1AfRyILejKoSDX7uQcWtbXRG)
+07-14-2017 @ 10:18:07 - Info: Begin processing payment for order 752 for the amount of 142.24
+07-14-2017 @ 10:18:07 - charges request: Array
+(
+    [currency] => cad
+    [amount] => 14224
+    [description] => d`VOUR - Order 752
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [Customer Name] => test test
+            [Customer Email] => ayvazyan122400@gmail.com
+        )
+
+    [source] => tok_1AfUcLLejKoSDX7ud7W7JhG4
+)
+
+07-14-2017 @ 10:18:10 - Processing response: stdClass Object
+(
+    [id] => ch_1AfUcTLejKoSDX7uRlACIe2G
+    [object] => charge
+    [amount] => 14224
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1AfUcULejKoSDX7upxK2DFMp
+            [object] => balance_transaction
+            [amount] => 10947
+            [available_on] => 1500595200
+            [created] => 1500041893
+            [currency] => usd
+            [description] => d`VOUR - Order 752
+            [fee] => 347
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 347
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 10600
+            [source] => ch_1AfUcTLejKoSDX7uRlACIe2G
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_1AfUcTLejKoSDX7uRlACIe2G
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1500041893
+    [currency] => cad
+    [customer] => 
+    [description] => d`VOUR - Order 752
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [Customer Name] => test test
+            [Customer Email] => ayvazyan122400@gmail.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1AfUcTLejKoSDX7uRlACIe2G/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_1AfUcLLejKoSDX7uYrfQls8E
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => 
+            [cvc_check] => 
+            [dynamic_last4] => 
+            [exp_month] => 12
+            [exp_year] => 2021
+            [fingerprint] => BWDboBpJkTlTJxZV
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => ayvazyan122400@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+
+07-14-2017 @ 10:18:14 - Success: Stripe charge complete (Charge ID: ch_1AfUcTLejKoSDX7uRlACIe2G)

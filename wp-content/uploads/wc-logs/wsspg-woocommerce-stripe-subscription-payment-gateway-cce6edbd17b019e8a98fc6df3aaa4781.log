@@ -1,0 +1,145 @@
+05-24-2017 @ 10:56:20 - [ error ][ customers/cus_Af70UWZFQVPhx6/sources ][ req_AiTkAdDWoKOW7r ]: stdClass Object
+(
+    [type] => invalid_request_error
+    [message] => No such customer: cus_Af70UWZFQVPhx6
+    [param] => customer
+)
+
+05-24-2017 @ 10:58:10 - [ error ][ customers/cus_AiTIJj3RjSXFfZ/sources ][ req_AiTl94GiWO2sJT ]: stdClass Object
+(
+    [type] => invalid_request_error
+    [message] => No such customer: cus_AiTIJj3RjSXFfZ; a similar object exists in test mode, but a live mode key was used to make this request.
+    [param] => customer
+)
+
+05-24-2017 @ 10:58:54 - [ error ][ customers/cus_AiTIJj3RjSXFfZ/sources ][ req_AiTmJYjANwlN6I ]: stdClass Object
+(
+    [type] => invalid_request_error
+    [message] => No such customer: cus_AiTIJj3RjSXFfZ; a similar object exists in test mode, but a live mode key was used to make this request.
+    [param] => customer
+)
+
+05-24-2017 @ 11:00:40 - [ error ][ customers/cus_Af70UWZFQVPhx6/sources ][ req_AiTouKQABfIQ6n ]: stdClass Object
+(
+    [type] => invalid_request_error
+    [message] => No such customer: cus_Af70UWZFQVPhx6
+    [param] => customer
+)
+
+05-24-2017 @ 11:10:04 - [ error ][ subscriptions ][ req_AiTxGQCKHMQd0p ]: stdClass Object
+(
+    [type] => invalid_request_error
+    [message] => No such customer: cus_AiTIJj3RjSXFfZ; a similar object exists in test mode, but a live mode key was used to make this request.
+    [param] => customer
+)
+
+05-24-2017 @ 11:14:32 - [ error ][ customers/cus_AiTIJj3RjSXFfZ/sources ][ req_AiU2sDNU3l89LN ]: stdClass Object
+(
+    [type] => invalid_request_error
+    [message] => No such customer: cus_AiTIJj3RjSXFfZ; a similar object exists in test mode, but a live mode key was used to make this request.
+    [param] => customer
+)
+
+05-24-2017 @ 11:20:50 - [ error ][ customers/cus_AiTIJj3RjSXFfZ/sources ][ req_AiU8t8uhbTO629 ]: stdClass Object
+(
+    [type] => invalid_request_error
+    [message] => No such customer: cus_AiTIJj3RjSXFfZ
+    [param] => customer
+)
+
+05-24-2017 @ 11:21:17 - [ error ][ customers/cus_AiTIJj3RjSXFfZ/sources ][ req_AiU8TvibqqBTzI ]: stdClass Object
+(
+    [type] => invalid_request_error
+    [message] => No such customer: cus_AiTIJj3RjSXFfZ
+    [param] => customer
+)
+
+05-24-2017 @ 11:25:28 - [ error ][ customers/cus_Af70UWZFQVPhx6/sources ][ req_AiUDPqeWgYkVe1 ]: stdClass Object
+(
+    [type] => invalid_request_error
+    [message] => No such customer: cus_Af70UWZFQVPhx6
+    [param] => customer
+)
+
+05-24-2017 @ 11:34:23 - [ error ][ customers/cus_Af70UWZFQVPhx6/sources ][ req_AiUMfxGF98jQdA ]: stdClass Object
+(
+    [type] => invalid_request_error
+    [message] => No such customer: cus_Af70UWZFQVPhx6
+    [param] => customer
+)
+
+05-24-2017 @ 11:38:25 - [ error ][ charges ][ req_AiUQn8Ienk0Q9U ]: stdClass Object
+(
+    [message] => Your card has insufficient funds.
+    [type] => card_error
+    [code] => card_declined
+    [decline_code] => insufficient_funds
+    [charge] => ch_1AN3REE95hPq53vqmsHGeprj
+)
+
+05-25-2017 @ 12:57:09 - [ error ][ subscriptions ][ req_AiqyWqEHYsu8Nf ]: stdClass Object
+(
+    [type] => invalid_request_error
+    [message] => You passed an empty string for 'customer'. We assume empty values are an attempt to unset a parameter; however 'customer' cannot be unset. You should remove 'customer' from your request or supply a non-empty value.
+    [param] => customer
+)
+
+06-07-2017 @ 09:56:11 - [ error ][ subscriptions ][ req_Anfz3zfFClwOgq ]: stdClass Object
+(
+    [type] => invalid_request_error
+    [message] => You passed an empty string for 'customer'. We assume empty values are an attempt to unset a parameter; however 'customer' cannot be unset. You should remove 'customer' from your request or supply a non-empty value.
+    [param] => customer
+)
+
+06-07-2017 @ 09:56:18 - [ error ][ subscriptions ][ req_Anfzvm475UgrIu ]: stdClass Object
+(
+    [type] => invalid_request_error
+    [message] => You passed an empty string for 'customer'. We assume empty values are an attempt to unset a parameter; however 'customer' cannot be unset. You should remove 'customer' from your request or supply a non-empty value.
+    [param] => customer
+)
+
+06-15-2017 @ 09:11:12 - [ error ][ subscriptions ]: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Resolving timed out after 5515 milliseconds
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+)
+
+06-23-2017 @ 12:20:47 - [ error ][ subscriptions ][ req_AthwhCgcfjecw0 ]: stdClass Object
+(
+    [type] => invalid_request_error
+    [message] => You passed an empty string for 'customer'. We assume empty values are an attempt to unset a parameter; however 'customer' cannot be unset. You should remove 'customer' from your request or supply a non-empty value.
+    [param] => customer
+)
+
+06-23-2017 @ 13:05:23 - [ error ][ subscriptions ][ req_AtifaEGp7t7u3D ]: stdClass Object
+(
+    [type] => invalid_request_error
+    [message] => You passed an empty string for 'customer'. We assume empty values are an attempt to unset a parameter; however 'customer' cannot be unset. You should remove 'customer' from your request or supply a non-empty value.
+    [param] => customer
+)
+
+06-23-2017 @ 13:08:32 - [ error ][ subscriptions ][ req_AtiiveGHrs7Zqu ]: stdClass Object
+(
+    [type] => invalid_request_error
+    [message] => You passed an empty string for 'customer'. We assume empty values are an attempt to unset a parameter; however 'customer' cannot be unset. You should remove 'customer' from your request or supply a non-empty value.
+    [param] => customer
+)
+
+06-28-2017 @ 09:48:54 - [ error ][ subscriptions ][ req_AvXcGf1MI5RH9V ]: stdClass Object
+(
+    [type] => invalid_request_error
+    [message] => You passed an empty string for 'customer'. We assume empty values are an attempt to unset a parameter; however 'customer' cannot be unset. You should remove 'customer' from your request or supply a non-empty value.
+    [param] => customer
+)
+
